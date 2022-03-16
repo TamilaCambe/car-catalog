@@ -11,8 +11,7 @@ Home page of a fictional car dealership.
 
 ![Badge](https://img.shields.io/static/v1?label=DEV&message=Tamila&color=ff0000&style=flat&logo=)
 
-<img src="https://github.com/TamilaCambe/car-catalog/blob/main/images/img1.PNG">
-<img src="https://github.com/TamilaCambe/car-catalog/blob/main/images/img2.PNG">
+![homepage](https://github.com/TamilaCambe/car-catalog/blob/main/ezgif.com-gif-maker.gif)
 
 ## 💻 Technologies used
 
