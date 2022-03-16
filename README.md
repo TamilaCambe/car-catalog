@@ -6,7 +6,7 @@
   </p>
 
 <h5 align="center">
-Home page de uma concessionária fictícia de veículos.
+Home page of a fictional car dealership.
 </h5>
 
 ![Badge](https://img.shields.io/static/v1?label=DEV&message=Tamila&color=ff0000&style=flat&logo=)
