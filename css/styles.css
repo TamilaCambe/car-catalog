@@ -1,4 +1,4 @@
-        * {
+ * {
             margin: 0px;
             padding: 0px;
             box-sizing: border-box;
@@ -8,8 +8,8 @@
         
          :root {
             /* pode ser útil para declarar uma  variável CSS  global */
-            --orange: #f78b00;
-            --blue: #00285f;
+            --blue: #060641;
+            --red: #FF0000;
             --gray: #ededed;
         }
         
@@ -23,7 +23,7 @@
         header {
             width: 100%;
             height: 500px;
-            background: var(--orange);
+            background: var(--blue);
             /* var pra puxar variáveis do root */
         }
         
@@ -47,8 +47,8 @@
         }
         
         .brand {
-            font-size: 24px;
-            color: var(--blue);
+            font-size: 30px;
+            color: var(--red);
             cursor: pointer;
         }
         
@@ -65,21 +65,21 @@
         }
         
         nav ul li a {
-            color: var(--blue);
+            color: var(--red);
             text-decoration: none;
         }
         
         nav ul li a:hover {
-            color: #00285f83;
+            color: var(--red);
         }
         
         nav ul button {
-            border: 1px solid var(--blue);
+            border: 1px solid var(--red);
             background: transparent;
             padding: 8px 40px;
             cursor: pointer;
             margin-left: 30px;
-            color: var(--blue);
+            color: var(--red);
             font-weight: bold;
             border-radius: 4px;
         }
@@ -87,7 +87,7 @@
         nav ul button:hover {
             transition: background, color 0.6s;
             /* quando passa o mouse pelo botão a mudança de cor é suave a velocidade */
-            background: var(--blue);
+            background: var(--red);
             color: white;
         }
         
@@ -95,7 +95,7 @@
             max-width: 1000px;
             min-width: 300px;
             height: 450px;
-            background: var(--blue);
+            background: var(--red);
             border-radius: 8px;
             box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
             -webkit-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -175,7 +175,7 @@
         
         .search-button:hover {
             background: #dedede;
-            color: var(--blue);
+            color: var(--red);
         }
         
         .title-wrapper-catalog {
@@ -240,7 +240,7 @@
         
         .card-item button:hover {
             background: #dedede;
-            color: var(--blue);
+            color: var(--red);
         }
         /*About*/
         
@@ -360,7 +360,7 @@
         footer .main {
             width: 100%;
             height: 200px;
-            background: var(--orange);
+            background: var(--blue);
             padding: 20px 10px;
         }
         
@@ -398,7 +398,7 @@
         footer .last {
             width: 100%;
             height: 50px;
-            background: var(--blue);
+            background: var(--red);
             color: white;
             display: flex;
             align-items: center;
